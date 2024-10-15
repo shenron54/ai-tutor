@@ -1,0 +1,14 @@
+openai
+PyPDF2 
+requests
+numpy==1.26.4
+PyYAML
+filelock
+huggingface-hub
+regex
+transformers
+tokenizers==0.20
+scikit-learn
+streamlit
+scholarly
+tiktoken
