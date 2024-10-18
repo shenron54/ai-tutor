@@ -15,7 +15,7 @@ class VectorDB:
         self.index.add(np.array(embeddings).astype('float32'))
         self.chunks.extend(new_chunks)
 
-    def retrieve_similar_chunks(self, query, k=2):  # Reduced from 5 to 2
+    def retrieve_similar_chunks(self, query, k=5):  # Reduced from 5 to 2
         query_vector = self.model.encode([query])
         distances, indices = self.index.search(np.array(query_vector).astype('float32'), k)
         return [self.chunks[i] for i in indices[0]]
