@@ -2,6 +2,8 @@
 
 ## Table of Contents
 - [Overview](#overview)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -11,7 +13,23 @@
 
 ## Overview
 
-This AI Research Paper Tutor is a Streamlit application that uses Azure OpenAI to help users understand research papers. It leverages a vector database to store and retrieve relevant context from papers, providing intelligent responses to user queries.
+The AI Research Paper Tutor is an advanced Streamlit application designed to revolutionize the way users interact with and comprehend academic literature. By harnessing the power of Azure OpenAI's language models and efficient vector database technology, this tool offers an intelligent, conversational interface for exploring and understanding research papers across various disciplines.
+
+### Key Features:
+- **PDF Processing**: Extracts and analyzes text from uploaded research papers.
+- **Vector Database Integration**: Utilizes a vector database for efficient storage and retrieval of relevant context.
+- **AI-Powered Responses**: Leverages Azure OpenAI to generate insightful, context-aware answers to user queries.
+- **Interactive Chat Interface**: Provides a user-friendly chat experience for engaging with the AI tutor.
+- **Session Management**: Allows users to manage multiple chat sessions for different papers or topics.
+
+### Technology Stack:
+- **Frontend**: Streamlit for the interactive web application
+- **AI Model**: Azure OpenAI API for natural language processing and generation
+- **Database**: Vector database (e.g., FAISS or Pinecone) for efficient similarity search
+- **PDF Processing**: PyPDF2 or pdfminer for extracting text from PDF documents
+- **Token Management**: TikToken for token counting and context management
+- **Environment Management**: python-dotenv for secure handling of environment variables
+- **Logging**: Python's built-in logging module for debugging and monitoring
 
 ## Prerequisites
 
