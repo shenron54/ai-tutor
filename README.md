@@ -2,8 +2,6 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Key Features](#key-features)
-- [Technology Stack](#technology-stack)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
