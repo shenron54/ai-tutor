@@ -11,7 +11,7 @@
 
 ## Overview
 
-The AI Research Paper Tutor is an advanced Streamlit application designed to revolutionize the way users interact with and comprehend academic literature. By harnessing the power of Azure OpenAI's language models and efficient vector database technology, this tool offers an intelligent, conversational interface for exploring and understanding research papers across various disciplines.
+The AI Research Assistant is a Streamlit application designed to revolutionize the way users interact with and comprehend academic literature. By harnessing the power of Azure OpenAI's language models and efficient vector database technology, this tool offers an intelligent, conversational interface for exploring and understanding research papers across various disciplines.
 
 ### Key Features:
 - **PDF Processing**: Extracts and analyzes text from uploaded research papers.
