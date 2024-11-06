@@ -1,4 +1,4 @@
-# AI Research Paper Tutor
+# AI Research Assistant
 
 ## Table of Contents
 - [Overview](#overview)
